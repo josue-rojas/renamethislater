@@ -1,0 +1,102 @@
+$nav-height: 88px
+
+.empty-space-nav
+  display: block
+  min-height: $nav-height
+  width: 100%
+  top: 0
+  // margin-bottom: auto
+
+.nav
+  padding: 10px 0 5px
+  text-align: center
+  position: fixed
+  top: 0
+  background-color: rgba(255,255,255,.7)
+  width: 100%
+  // just to make sure its on top
+  z-index: 100
+  -webkit-backdrop-filter: blur(5px)
+  backdrop-filter: blur(5px)
+  .title
+    font-family: 'Bellefair', serif
+    font-weight: 400
+    color: black
+    margin-bottom: 5px
+  .burger-menu
+    width: 32px
+    height: 32px
+    position: relative
+    margin: auto
+    cursor: pointer
+    div
+      width: 100%
+      height: 5px
+      background-color: black
+      position: absolute
+      transition: .5s,background-color .2s
+      &:first-child
+        margin-top: 7px
+      &:last-child
+        margin-top: 20px
+  .links
+    position: absolute
+    background-color: rgba(255,255,255,.7)
+    width: 100%
+    height: calc(100vh - #{$nav-height})
+    overflow: scroll
+    // just to make sure its on top
+    -webkit-backdrop-filter: blur(5px)
+    backdrop-filter: blur(5px)
+    top: calc(#{$nav-height}  - 100vh)
+    transition: top 400ms
+    z-index: -1
+    ul
+      list-style-type: none
+      margin: 0
+      padding: 10px 3%
+      overflow: hidden
+      li
+        display: block
+        font-size: 2rem
+        margin: 10px 0
+        .contact-link
+          margin: 0px 7px
+          transition: color 300ms
+          color: rgb(85, 85, 85)
+          &.active
+            color: #7f7f7f
+          &:not(.active):hover
+            color: #7f7f7f
+  &.active-nav
+    .links
+      top: $nav-height
+    .burger-menu
+      div:first-child
+        -webkit-transform: rotate(225deg)
+        transform: rotate(225deg)
+        margin-top: 50%
+      div:last-child
+        -webkit-transform: rotate(-225deg)
+        transform: rotate(-225deg)
+        margin-top: 50%
+  +medium-devices
+    .burger-menu
+      display: none
+    .links
+      background-color: rgba(255,255,255,0)
+      display: block
+      min-height: 32px
+      top: auto
+      transition: top 0s
+      height: auto
+      position: relative
+      ul
+        padding: 0
+        li
+          font-size: 1rem
+          margin: 4px 0px
+          display: inline-block
+    &.active-nav
+      .links
+        top: auto

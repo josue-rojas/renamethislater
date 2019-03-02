@@ -1,0 +1,17 @@
+<div class='empty-space-nav'></div>
+<nav class='contact nav'>
+  <a href='/'><h1 class='title'>{{ include.data.title }}</h1></a>
+  <div class='burger-menu'>
+    <div></div>
+    <div></div>
+  </div>
+  <div class='links'>
+    <ul>
+      {% for link in include.data.links %}
+        <li>
+          <a class='contact-link' href='{{link[1]}}'>{{link[0]}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

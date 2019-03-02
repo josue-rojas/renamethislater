@@ -1,0 +1,6 @@
+---
+data_file: index
+---
+
+{% assign data = site.data[page.data_file].sass %}
+{% include partial_assets/sass_partials.sass data=data %}

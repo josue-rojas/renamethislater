@@ -1,0 +1,31 @@
+---
+
+title: "l"
+metadata:
+  title: "d"
+  keywords: "s"
+  description: "something"
+  title: "Portfolio"
+  ogtype: "Portfolio"
+  ogurl: "k"
+  author: "k"
+sass:
+  - "defaults.sass"
+  - "sizes.sass"
+  - "mixins.sass"
+  - "navbar.sass"
+css:
+  - "./resources/index.css"
+js:
+  - "http://code.jquery.com/jquery-3.3.1.min.js"
+  - "./resources/index.js"
+js_partials:
+  - "navbar.js"
+navbar:
+  title: "A Title"
+  links:
+    Home: "./"
+    Fashion: "./#fashion"
+    "Graphic Design": "./#graphic"
+    "About Me": "./#aboutme"
+    Contact: "./#contact"

@@ -1,0 +1,20 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  {% assign data = site.data[page.data_file] %}
+  {% include metadata.html data=data.metadata %}
+  {% include css.html data=data.css %}
+  {% include js.html data=data.js %}
+  <title>{{ data.title }}</title>
+</head>
+<body>
+  <div class='view-wrapper'>
+    {% include navbar.html data=data.navbar %}
+    <div class='content-wrapper'>
+      {{ content }}
+    </div>
+    </div>
+  </body>
+</html>
