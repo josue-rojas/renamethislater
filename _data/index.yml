@@ -17,7 +17,7 @@ sass:
 css:
   - "./resources/index.css"
 js:
-  - "http://code.jquery.com/jquery-3.3.1.min.js"
+  - "https://code.jquery.com/jquery-3.3.1.min.js"
   - "./resources/index.js"
 js_partials:
   - "navbar.js"
