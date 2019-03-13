@@ -18,6 +18,7 @@ sass:
   - "page_index_top_images.sass"
   - "page_index_lookbook.sass"
   - "page_index_subscribe.sass"
+  - "page_index_connected.sass"
 css:
   - "./resources/index.css"
 js:
