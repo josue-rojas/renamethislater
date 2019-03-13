@@ -1,0 +1,11 @@
+---
+
+navbar:
+  title: "CURATE"
+  links:
+    # Home: "./"
+    "Fashion Design": "./fashion"
+    "Graphic Design": "./graphic"
+    "CURATE": './'
+    "About Me": "./aboutme"
+    Contact: "./contact"

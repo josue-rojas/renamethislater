@@ -14,6 +14,10 @@ sass:
   - "sizes.sass"
   - "mixins.sass"
   - "navbar.sass"
+  - "page_index_explore.sass"
+  - "page_index_top_images.sass"
+  - "page_index_lookbook.sass"
+  - "page_index_subscribe.sass"
 css:
   - "./resources/index.css"
 js:
@@ -21,11 +25,3 @@ js:
   - "./resources/index.js"
 js_partials:
   - "navbar.js"
-navbar:
-  title: "A Title"
-  links:
-    Home: "./"
-    Fashion: "./#fashion"
-    "Graphic Design": "./#graphic"
-    "About Me": "./#aboutme"
-    Contact: "./#contact"

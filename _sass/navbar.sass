@@ -1,11 +1,10 @@
-$nav-height: 88px
+$nav-height: 98px
 
 .empty-space-nav
   display: block
   min-height: $nav-height
   width: 100%
   top: 0
-  // margin-bottom: auto
 
 .nav
   padding: 10px 0 5px
@@ -19,10 +18,30 @@ $nav-height: 88px
   -webkit-backdrop-filter: blur(5px)
   backdrop-filter: blur(5px)
   .title
-    font-family: 'Bellefair', serif
     font-weight: 400
     color: black
     margin-bottom: 5px
+    display: initial
+    font-weight: 600
+    color: black
+    font-size: 1.5rem
+    position: relative
+    letter-spacing: .24rem
+    &::before
+      content: "est. 2020"
+      font-size: .6rem
+      color: rgb(85, 85, 85)
+      display: block
+      font-weight: 400
+      letter-spacing: initial
+    &::after
+      content: ""
+      display: block
+      width: 60%
+      position: absolute
+      margin: 0 20%
+      bottom: -3px
+      border-bottom: 2px solid black
   .burger-menu
     width: 32px
     height: 32px
@@ -64,6 +83,8 @@ $nav-height: 88px
           margin: 0px 7px
           transition: color 300ms
           color: rgb(85, 85, 85)
+          &.title
+            display: none
           &.active
             color: #7f7f7f
           &:not(.active):hover
@@ -83,6 +104,8 @@ $nav-height: 88px
   +medium-devices
     .burger-menu
       display: none
+    .title
+      display: none
     .links
       background-color: rgba(255,255,255,0)
       display: block
@@ -94,9 +117,33 @@ $nav-height: 88px
       ul
         padding: 0
         li
+          width: 126px
           font-size: 1rem
           margin: 4px 0px
           display: inline-block
+          text-align: center
+          .contact-link.title
+            font-weight: 600
+            color: black
+            font-size: 1.45rem
+            position: relative
+            letter-spacing: .24rem
+            display: block
+            &::before
+              content: "est. 2020"
+              font-size: .6rem
+              color: rgb(85, 85, 85)
+              display: block
+              font-weight: 400
+              letter-spacing: initial
+            &::after
+              content: ""
+              display: block
+              width: 60%
+              position: absolute
+              margin: 0 20%
+              bottom: 0px
+              border-bottom: 2px solid black
     &.active-nav
       .links
         top: auto

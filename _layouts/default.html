@@ -1,9 +1,12 @@
 ---
 ---
+
+{% assign data = site.data[page.data_file] %}
+{% assign default_data = site.data.defaults %}
+
 <!DOCTYPE html>
 <html>
 <head>
-  {% assign data = site.data[page.data_file] %}
   {% include metadata.html data=data.metadata %}
   {% include css.html data=data.css %}
   {% include js.html data=data.js %}
@@ -11,7 +14,7 @@
 </head>
 <body>
   <div class='view-wrapper'>
-    {% include navbar.html data=data.navbar %}
+    {% include navbar.html data=default_data.navbar %}
     <div class='content-wrapper'>
       {{ content }}
     </div>

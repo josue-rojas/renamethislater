@@ -1,3 +1,9 @@
+@import 'mixins.sass'
+
+// colors
+$peach: rgb(237, 178, 138)
+$gray: rgb(248, 244, 248)
+
 html
   -webkit-box-sizing: border-box
   box-sizing: border-box
@@ -28,9 +34,58 @@ a
 .view-wrapper
   min-width: 100vw
   min-height: 100vh
-  justify-content: center
-  align-items: center
-  display: flex
-  flex-direction: column
-.content-wrapper
+
+// sections
+.section
+  width: 100%
   margin: auto
+  text-align: center
+  +medium-devices
+    width: 80%
+// a color-section-wrapper is always 100% so we can change the color using other classes
+.color-section-wrapper
+  width: 100%
+
+// panels
+.single-25-panel
+  width: 25%
+.single-30-panel
+  width: 30%
+.panel
+  display: inline-block
+
+// inputs and buttons
+.button
+  display: block
+  background-color: white
+  padding: 7px 0
+  width: 150px
+  -webkit-appearance: none
+  -moz-appearance: none
+  border: none
+  cursor: pointer
+  font-size: 1rem
+.button.peach-btn
+  background-color: $peach
+  color: white
+input
+  font-size: 16px
+  border: 1px solid #e0dce0
+  padding: 5px 3px
+
+
+// background-color for sections
+.gray-back
+  background-color: $gray
+.peach-back
+  background-color: $peach
+
+// temp stuff
+.blue
+  background-color: blue
+.red
+  background-color: red
+.yellow
+  background-color: yellow
+.pink
+  background-color: pink
