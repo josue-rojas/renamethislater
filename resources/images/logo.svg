@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 292.82666 208.92"
+   height="208.92"
+   width="292.82666"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><clipPath
+       id="clipPath20"
+       clipPathUnits="userSpaceOnUse"><path
+         id="path18"
+         d="m 0,570 v 906 H 1731 V 570 Z" /></clipPath></defs><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,208.92)"
+     id="g10"><g
+       transform="scale(0.1)"
+       id="g12"><g
+         id="g14"><g
+           clip-path="url(#clipPath20)"
+           id="g16"><g
+             transform="scale(10)"
+             id="g22"><text
+               id="text26"
+               style="font-variant:normal;font-weight:normal;font-size:128.2749939px;font-family:QaskinBlackPersonalUse;-inkscape-font-specification:QaskinBlackPersonalUse;writing-mode:lr-tb;fill:#f6c58f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,4.87344,49.5148)"><tspan
+                 id="tspan24"
+                 y="0"
+                 x="0 39.893524 81.582901 125.45157">daka</tspan></text>
+</g></g></g><g
+         transform="scale(10)"
+         id="g28"><text
+           id="text32"
+           style="font-variant:normal;font-weight:normal;font-size:10.26200008px;font-family:'The Girl Next Door';-inkscape-font-specification:TheanoDidot-Regular;writing-mode:lr-tb;fill:#e7e5df;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,1.29258,71.7793)"><tspan
+             id="tspan30"
+             y="0"
+             x="0 13.623996 26.536598 39.990192 49.696251 63.470646 76.923744 102.16301 115.61711 128.8495 142.7245 155.9579">DEVIKA ARORA</tspan></text>
+</g><g
+         transform="scale(10)"
+         id="g34"><text
+           id="text38"
+           style="font-variant:normal;font-weight:normal;font-size:10.26200008px;font-family:'The Girl Next Door';-inkscape-font-specification:TheanoDidot-Regular;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,0.00976563,71.7793)"><tspan
+             id="tspan36"
+             y="0"
+             x="0 13.623996 26.536598 39.990192 49.696251 63.470646 76.924248 102.16254 115.61664 128.85004 142.72403 155.95743">DEVIKA ARORA</tspan></text>
+</g></g></g></svg>

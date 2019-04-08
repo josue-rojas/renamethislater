@@ -6,6 +6,6 @@ navbar:
     # Home: "./"
     "Fashion Design": "./fashion"
     "Graphic Design": "./graphic"
-    "CURATE": './'
+    "<img src='./resources/images/logo.jpg' style='height: 70px; width: auto'/>": './'
     "About Me": "./aboutme"
     Contact: "./contact"
