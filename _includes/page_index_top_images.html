@@ -2,9 +2,8 @@
 <!-- rosources: fourpanellarge.sass -->
 <div class='four-panel section' id='top_images'>
   <div class='panel-wrapper'>
-    <div class='panel' style='background-image: url("./resources/images/img1.jpg")'></div>
-    <div class='panel ' style='background-image: url("./resources/images/img2.jpg")'></div>
-    <div class='panel ' style='background-image: url("./resources/images/img3.jpg")'></div>
-    <div class='panel' style='background-image: url("./resources/images/img4.jpg")'></div>
+    {% for image in site.data.page_index_top_images.images %}
+      <a href='./fashion' class='panel' style='background-image: url("{{image}}")'><div></div></a>
+    {% endfor %}
   </div>
 </div>

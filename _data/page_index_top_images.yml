@@ -1,3 +1,7 @@
 ---
 
 images:
+  - ./resources/images/img1.jpg
+  - ./resources/images/img2.jpg
+  - ./resources/images/img3.jpg
+  - ./resources/images/img4.jpg
